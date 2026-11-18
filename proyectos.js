@@ -8,11 +8,11 @@
  */
 
 export function filtrarProyectos(proyectos, categoria) {
-  if (categoria === "Todos") {
+  if (catergoria === "Todos") {
     return [...proyectos];
   }
 
   return proyectos.filter(
-    (proyecto) => proyecto.categoria === categoria
+    (proyecto) => proyecto.catergoria === catergoria
   );
 }
